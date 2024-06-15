@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js or src/Pages/Home.jsx
 
-function App() {
+import React from 'react';
+import Navbar from './Components/Navbar/Navbar';
+import './App.css'; // Make sure to import global styles
+import Home from './Pages/Home';
+import Footer from './Components/Footer/Footer';
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+// import Termsandcondition from './Pages/Termsandcondition';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+    <div>
+      <Navbar />
+      <Home />
+      <Routes>
+        {/* <Route path="/Termsandcondition" element ={<Termsandcondition/>}></Route> */}
+      </Routes>
+      <Footer />
+      
     </div>
+    </Router>
   );
-}
+};
 
 export default App;

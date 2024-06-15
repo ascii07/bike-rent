@@ -1,0 +1,93 @@
+/* Base Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Terms and Conditions Page Styles */
+  .terms-page {
+    padding: 40px 20px;
+    background-color: #ffffff;
+  }
+  
+  .terms-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .terms-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #0056b3;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #0056b3;
+  }
+  
+  h3 {
+    font-size: 1.4em;
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  p, ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  address {
+    font-style: normal;
+    line-height: 1.6;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .terms-container {
+      padding: 15px;
+    }
+  
+    .terms-title {
+      font-size: 2em;
+    }
+  
+    h2 {
+      font-size: 1.6em;
+    }
+  
+    h3 {
+      font-size: 1.2em;
+    }
+  
+    p, ul {
+      font-size: 1em;
+    }
+  }
+  
