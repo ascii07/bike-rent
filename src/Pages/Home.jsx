@@ -40,9 +40,9 @@ const HomePage = () => {
           </div>
           <div className="about-text">
             <h2>ABOUT US</h2>
-            <h1>Lotus 365 Bike Rental Services</h1>
+            <h1>Lotus 365 Days Bike Rental Services</h1>
             <p>
-              Lotus 365 bike rental services – A Pune-based travel agency; bringing you the best travel and tour across the country, offering an experience that is intensely thrilling. With years of experience, we have strong competence in providing you the best bike rental services and tourism. We have our own fleet of bikes suiting various needs of domestic people and foreign tourists.
+              Lotus 365 Days bike rental services – A Pune-based travel agency; bringing you the best travel and tour across the country, offering an experience that is intensely thrilling. With years of experience, we have strong competence in providing you the best bike rental services and tourism. We have our own fleet of bikes suiting various needs of domestic people and foreign tourists.
             </p>
             <p>
               All the rental bikes are new and well-maintained and are driven by highly experienced and very courteous chauffeurs. We offer bike rentals from Pune.
@@ -142,7 +142,7 @@ const HomePage = () => {
           </div>
           <div className="contact-item">
             <i className="fa fa-envelope"></i>
-            <p>Email Us-Lotus365@support.com</p>
+            <p>Email Us-Lotus@support.com</p>
           </div>
           <div className="contact-item">
             <i className="fa fa-map-marker"></i>
