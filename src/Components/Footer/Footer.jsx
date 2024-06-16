@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section about">
-          <h2>"Lotus" className="footer-logo" </h2>
+          <h2>"Lotus"</h2>
           <p>
             Lotus 365 Days bike rental self drive services. – A Pune-based travel agency; bringing you the best travel and tour across the country, offering an experience that is intensely thrilling. With years of experience, we have strong competence in providing you the best bike rental services and tourism. We have our own fleet of 105 bikes suiting various needs of domestic people and foreign tourists.
           </p>
@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2024 Lotus 365 Days bike rental self drive services. All rights reserved. Designed by Rahul Solutions Pvt Ltd</p>
+        <p>© 2024 Lotus 365 Days Days bike rental self drive services. All rights reserved. Designed by Rahul Solutions Pvt Ltd</p>
       </div>
     </footer>
   );
